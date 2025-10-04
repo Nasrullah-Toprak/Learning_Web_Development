@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    
+    <h1 id="title">My Personal Survey</h1>
+    <p id="description">Please fill out this short survey to share your thoughts.</p>
+    
+    <form id="survey-form">
+      <label id="name-label" for="name">Your Name: <input type="text" id="name" name="name" placeholder="Enter your full name" required></label>
+      <label id="email-label" for="email">Email Address: <input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+      <label id="number-label" for="number">Age:<input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age"></label>
+      <label for="dropdown">What is your current role?
+        <select id="dropdown" name="role" required>
+          <option disabled selected value>Select one</option>
+          <option value="1">Student</option>
+          <option value="2">Working Professional</option>
+          <option value="3">Other</option>
+      </select>
+    </label>
+      
+      <p>Would you recommend this survey to a friend?</p>
+      <label><input type="radio" name="recommend" value="yes" checked>Yes</label>
+      <label><input type="radio" name="recommend" value="maybe">Maybe</label>
+      <label><input type="radio" name="recommend" value="no">No</label>
+
+      <p id="checking">What topics interest you? (Check all that apply)</p>
+      <label><input type="checkbox" value="coding" name="interest"> Coding</label>
+      <label><input type="checkbox" value="music" name="interest"> Music</label>
+      <label><input type="checkbox" value="sports" name="interest"> Sports</label>
+      <label><input type="checkbox" value="travel" name="interest"> Travel</label>
+
+      <label for="comments" class="comment">Additional comments:</label>
+      <textarea id="comments" name="comments" placeholder="Write your feedback here..."></textarea>
+      <input id="submit" type="Submit" />
+
+    </form>
+  </body>
+</html>
