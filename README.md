@@ -86,6 +86,14 @@ A browser-based text RPG where players fight monsters and manage inventory.
   - Health, XP, gold, and inventory system
   - Easter egg mini-game for extra rewards
   - Buttons dynamically update gameplay actions
+ 
+### 11. Palindrome Checker
+A web app that verifies whether the entered text is a palindrome.  
+- **Technologies:** HTML, CSS, JavaScript  
+- **Features:**  
+  - Input validation for empty or invalid text  
+  - Ignores punctuation, spaces, and capitalization  
+  - Displays real-time result indicating if text is a palindrome  
 
 ## 📂 File Structure
 - Each project has its own folder:
